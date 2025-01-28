@@ -1,17 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #2c3e50;
-  }
-  
-  .App {
-    padding: 20px;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  padding: 1rem;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.add-button, .edit-button, .delete-button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
